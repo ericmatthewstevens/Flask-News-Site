@@ -1,0 +1,14 @@
+#apod-image {
+  text-align: center;
+  background-image: "/Astro_Images/2022-06-23_Spiral_Galaxy_NGC_6744.jpg";
+  color: white;
+  
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
